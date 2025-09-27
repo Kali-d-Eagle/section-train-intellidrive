@@ -2,41 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* RailOps Railway Control System Design System
+Professional command center theme with deep blues and technical aesthetics
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Command Center Dark Theme */
+    --background: 214 24% 8%;
+    --foreground: 210 20% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 214 24% 10%;
+    --card-foreground: 210 20% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 214 24% 12%;
+    --popover-foreground: 210 20% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Railway Blue Primary */
+    --primary: 212 95% 55%;
+    --primary-foreground: 214 24% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Control Panel Secondary */
+    --secondary: 214 24% 14%;
+    --secondary-foreground: 210 20% 90%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted Elements */
+    --muted: 214 24% 16%;
+    --muted-foreground: 210 10% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent Colors */
+    --accent: 187 85% 50%;
+    --accent-foreground: 214 24% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Status Colors */
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 210 20% 95%;
+    
+    --success: 142 85% 50%;
+    --success-foreground: 214 24% 8%;
+    
+    --warning: 45 95% 55%;
+    --warning-foreground: 214 24% 8%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* UI Elements */
+    --border: 214 24% 18%;
+    --input: 214 24% 16%;
+    --ring: 212 95% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.375rem;
+
+    /* Railway Specific Colors */
+    --track-main: 212 95% 55%;
+    --track-loop: 187 85% 50%;
+    --track-yard: 275 85% 60%;
+    --track-outline: 45 95% 55%;
+    
+    --train-express: 0 85% 60%;
+    --train-local: 142 85% 50%;
+    --train-freight: 275 85% 60%;
+    --train-special: 45 95% 55%;
+    
+    --signal-clear: 142 85% 50%;
+    --signal-caution: 45 95% 55%;
+    --signal-danger: 0 85% 60%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(212 95% 55%), hsl(187 85% 50%));
+    --gradient-status: linear-gradient(90deg, hsl(142 85% 50%), hsl(187 85% 50%));
+    --gradient-danger: linear-gradient(135deg, hsl(0 85% 60%), hsl(0 70% 45%));
+    
+    /* Shadows */
+    --shadow-control: 0 4px 20px -2px hsl(212 95% 55% / 0.2);
+    --shadow-panel: 0 8px 32px -4px hsl(214 24% 4% / 0.3);
+    --shadow-glow: 0 0 30px hsl(212 95% 55% / 0.3);
 
     --sidebar-background: 0 0% 98%;
 

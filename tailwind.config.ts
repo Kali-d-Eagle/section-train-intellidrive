@@ -47,6 +47,31 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        track: {
+          main: "hsl(var(--track-main))",
+          loop: "hsl(var(--track-loop))",
+          yard: "hsl(var(--track-yard))",
+          outline: "hsl(var(--track-outline))",
+        },
+        train: {
+          express: "hsl(var(--train-express))",
+          local: "hsl(var(--train-local))",
+          freight: "hsl(var(--train-freight))",
+          special: "hsl(var(--train-special))",
+        },
+        signal: {
+          clear: "hsl(var(--signal-clear))",
+          caution: "hsl(var(--signal-caution))",
+          danger: "hsl(var(--signal-danger))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +87,20 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-status": "var(--gradient-status)",
+        "gradient-danger": "var(--gradient-danger)",
+      },
+      boxShadow: {
+        "control": "var(--shadow-control)",
+        "panel": "var(--shadow-panel)",
+        "glow": "var(--shadow-glow)",
+      },
+      fontFamily: {
+        "mono": ["JetBrains Mono", "Consolas", "Monaco", "monospace"],
+        "display": ["Inter", "system-ui", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
