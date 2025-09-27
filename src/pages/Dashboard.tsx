@@ -16,7 +16,7 @@ import {
   HelpCircle,
   ShieldCheck
 } from "lucide-react";
-import RailwayNetwork from "@/components/RailwayNetwork";
+import RealisticRailwayNetwork from "@/components/RealisticRailwayNetwork";
 import ControlPanel from "@/components/ControlPanel";
 import AIRecommendations from "@/components/AIRecommendations";
 import KPIMetrics from "@/components/KPIMetrics";
@@ -87,7 +87,7 @@ const Dashboard = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-0 h-[calc(100%-4rem)]">
-                <RailwayNetwork />
+                <RealisticRailwayNetwork />
               </CardContent>
             </Card>
           </div>
